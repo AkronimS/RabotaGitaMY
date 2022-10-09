@@ -5,5 +5,6 @@
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         MsgBox("Connect to finesher")
+        TextBox1.Text = ""
     End Sub
 End Class
